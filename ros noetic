@@ -1,0 +1,12 @@
+    Publisher: A node that sends messages to a topic.
+    Subscriber: A node that receives messages from a topic.
+    Messages: Data structures (usually defined in .msg files) that are sent over topics. They can contain various data types, including standard types (like integers and strings) and custom types.
+
+How Topics Work
+
+    Publisher Node: A node publishes messages to a specific topic. Multiple nodes can publish to the same topic.
+    Subscriber Node: A node subscribes to a specific topic to receive messages. Multiple nodes can subscribe to the same topic.
+    ROS Master: Keeps track of all active topics and nodes, allowing nodes to find each other and establish communication.
+ nodes talk over a topic
+one node publishes to a topic(message) and one node subscibes to a topic
+topic is like a transmission channel between nodes
