@@ -10,3 +10,9 @@ How Topics Work
  nodes talk over a topic
 one node publishes to a topic(message) and one node subscibes to a topic
 topic is like a transmission channel between nodes
+publisher nodes sends messages over a topic
+subsciber node listens or recieves messages over at topic
+rostopic list == gives list of topics running
+rosmsg show 'topicname' == gives the variables and datatypes being used over the topic by the publisher
+rostopic info 'topicname' == gives publisher and subscriber node info for a topic
+rostopic echo 'topicname'==show the data passing through a topic
